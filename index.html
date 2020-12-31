@@ -1,47 +1,367 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leven - Resume / CV / vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Leven - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-  <!-- Place favicon.ico in the root directory -->
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <body class="page">
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+    <div class="lm-animated-bg"></div>
 
-<body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+              <div id="content" class="page-content site-content single-post" role="main">
+                <!-- Home Page Top Part -->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12">
+                    <div class="home-content">
+                      <div class="row flex-v-align">
+
+                        <div class="col-sm-12 col-md-5 col-lg-5">
+                          <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(./img/main_photo.png);">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-7 col-lg-7">
+                          <div class="home-text hp-left">
+                            <div class="owl-carousel text-rotation">
+                              <div class="item">
+                                <h4>Frontend-developer</h4>
+                              </div>
+
+                              <div class="item">
+                                <h4>Web Designer</h4>
+                              </div>
+                            </div>
+
+                            <h1>Alex Smith</h1>
+                            <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
+
+                            <div class="home-buttons">
+                              <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+                              <a href="#" target="_self" class="btn btn-secondary">Contact</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Home Page Top Part -->
+
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>What I Do</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Copywrite</h4>
+                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-display"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Web Design</h4>
+                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-shop"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Ecommerce</h4>
+                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-megaphone"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Marketing</h4>
+                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services -->
+
+
+
+                <div class="row">
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="block-title">
+                      <h2>Education</h2>
+                    </div>
+
+                    <div id="timeline_1" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2009</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">UI Design</h4>
+                        <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2008</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">Graphic Design</h4>
+                        <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2007</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">Frontend Development</h4>
+                        <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="block-title">
+                      <h2>Experience</h2>
+                    </div>
+
+                    <div id="timeline_2" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2016 - Current</h5>
+                        <span class="item-company">Rolling Thunder</span>
+                        <h4 class="item-title">Lead UI/UX Designer</h4>
+                        <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2013 - 2016</h5>
+                        <span class="item-company">Locost Accessories</span>
+                        <h4 class="item-title">Senior UI/UX Designer</h4>
+                        <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2011 - 2013</h5>
+                        <span class="item-company">Sagebrush</span>
+                        <h4 class="item-title">Junior UI/UX Designer</h4>
+                        <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="p-40"></div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="block-title">
+                      <h2>Design Skills</h2>
+                    </div>
+
+                    <div id="skills_1" class="skills-info skills-first-style">
+                      <!-- Skill 1 -->
+                      <div class="clearfix">
+                        <h4>UI/UX Design</h4>
+                        <div class="skill-value">95%</div>
+                      </div>
+
+                      <div id="skill_1" data-value="95" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 1 -->
+
+                      <!-- Skill 2 -->
+                      <div class="clearfix">
+                        <h4>Print Design</h4>
+                        <div class="skill-value">75%</div>
+                      </div>
+
+                      <div id="skill_2" data-value="75" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 2 -->
+
+                      <!-- Skill 3 -->
+                      <div class="clearfix">
+                        <h4>Graphic Design</h4>
+                        <div class="skill-value">85%</div>
+                      </div>
+                      <div id="skill_3" data-value="85" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- Skill 3 -->
+
+                      <!-- Skill 4 -->
+                      <div class="clearfix">
+                        <h4>Logo Design</h4>
+                        <div class="skill-value">90%</div>
+                      </div>
+                      <div id="skill_4" data-value="90" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 4 -->
+                    </div>
+
+                  </div>
+
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="block-title">
+                      <h2>Coding Skills</h2>
+                    </div>
+
+
+                    <div id="skills_2" class="skills-info skills-first-style">
+                      <!-- Skill 5 -->
+                      <div class="clearfix">
+                        <h4>HTML / CSS</h4>
+                        <div class="skill-value">100%</div>
+                      </div>
+                      <div id="skill_5" data-value="100" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 5 -->
+
+                      <!-- Skill 6 -->
+                      <div class="clearfix">
+                        <h4>PHP</h4>
+                        <div class="skill-value">90%</div>
+                      </div>
+                      <div id="skill_6" data-value="90" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 6 -->
+
+                      <!-- Skill 7 -->
+                      <div class="clearfix">
+                        <h4>JavaScript</h4>
+                        <div class="skill-value">90%</div>
+                      </div>
+                      <div id="skill_7" data-value="90" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 7 -->
+
+                      <!-- Skill 8 -->
+                      <div class="clearfix">
+                        <h4>Smarty / Twig</h4>
+                        <div class="skill-value">85%</div>
+                      </div>
+                      <div id="skill_8" data-value="85" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 8 -->
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+
+
+          <div class="footer-copyrights">
+            <p>© <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script> All rights reserved. David Hodgson.</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
