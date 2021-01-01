@@ -4147,14 +4147,14 @@ a.post-thumbnail:hover {
 
 
 /* ======= Entry Content ======= */
-.entry-content,
+/*.entry-content,
 .entry-summary,
 .page-content {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-}
+}*/
 
 .site-content .entry-summary {
   padding: 6px 0 0;
