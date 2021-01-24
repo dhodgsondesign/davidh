@@ -5867,7 +5867,7 @@ a.post-thumbnail:hover {
 
 /* External Links */
 .external {
-    background-image: url(/images/external-link-ltr-icon.svg);
+    background-image: url(/img/external-link-ltr-icon.svg);
     background-position: center right;
     background-repeat: no-repeat;
     padding-right: 13px;
